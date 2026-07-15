@@ -2,11 +2,12 @@
 
 ## 📖 Overview
 
-The **Autonomous LiDAR-Based Floor Cleaning Robot** is an intelligent robotic system designed to clean indoor environments with minimal human intervention. It utilizes **LiDAR-based SLAM (Simultaneous Localization and Mapping)** for real-time mapping and localization, enabling efficient navigation through complex indoor spaces while avoiding obstacles.
+The **Autonomous LiDAR-Based Floor Cleaning Robot** is an intelligent robotic system designed to clean indoor environments with minimal human intervention. A **LiDAR sensor** continuously scans the surroundings to generate a real-time map of the environment using **SLAM (Simultaneous Localization and Mapping)**. The generated map is displayed on a **mobile application**, allowing users to monitor the robot's live position, cleaning progress, and navigation path.
 
-The robot is simulated using **Gazebo** and visualized in **RViz**, allowing realistic testing before deployment on hardware. A dedicated **mobile application** enables users to monitor the robot's location, cleaning progress, battery status, and remotely control cleaning operations.
+A **Raspberry Pi** serves as the main processing unit, handling LiDAR data, mapping, path planning, and communication with the mobile application. It interfaces with the motor controller and onboard electronics to autonomously navigate through indoor environments while avoiding obstacles.
 
-**Intelligent corner detection using LiDAR to deploy an extendable cleaning arm or side brush for improved edge and corner cleaning efficiency.**
+To improve cleaning performance, the robot incorporates **intelligent corner detection**. When the LiDAR identifies corners or hard-to-reach edges, a **rack-and-pinion-based extendable cleaning arm** is actuated to reach beyond the robot's circular body, ensuring efficient cleaning of corners and wall edges before retracting and resuming normal operation.
+
 ---
 
 ## ✨ Features
