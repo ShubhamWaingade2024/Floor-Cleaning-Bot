@@ -6,7 +6,7 @@ The **Autonomous LiDAR-Based Floor Cleaning Robot** is an intelligent robotic sy
 
 The robot is simulated using **Gazebo** and visualized in **RViz**, allowing realistic testing before deployment on hardware. A dedicated **mobile application** enables users to monitor the robot's location, cleaning progress, battery status, and remotely control cleaning operations.
 
-🧹 **Intelligent corner detection using LiDAR to deploy an extendable cleaning arm or side brush for improved edge and corner cleaning efficiency.**
+**Intelligent corner detection using LiDAR to deploy an extendable cleaning arm or side brush for improved edge and corner cleaning efficiency.**
 ---
 
 ## ✨ Features
